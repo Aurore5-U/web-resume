@@ -235,15 +235,15 @@ ul {
 }
 
 .contact-item a {
- color: inherit; /* use the same color as the rest of the text */
-  text-decoration: none; /* no underline */
+ color: inherit; 
+  text-decoration: none; 
   font-weight: 500;
   cursor: pointer;
 }
 
 .contact-item a:hover {
-  color: #ff66c4; /* cute pink highlight when hovering */
-  text-decoration: underline dotted; /* optional: fancy hover effect */
+  color: #ff66c4; 
+  text-decoration: underline dotted; 
 }
 
 /* === FORM === */
@@ -390,7 +390,7 @@ ul {
   height: 10px;
   width: 0;
   transition: width 1s ease-in-out;
-  /* Color gradients per skill, matching your HTML structure */
+  /* Color gradients per skill, matching my HTML structure */
 
 .skill-category:nth-of-type(1) .skill-item:nth-of-type(1) .skill-progress {
   background: linear-gradient(to right, #ff6b6b, #ffcc70); /* HTML5 */
